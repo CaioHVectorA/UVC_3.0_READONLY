@@ -1,4 +1,3 @@
-import { Character_Type } from "../types/Character";
 type Aparicoes_Type = {
   Ref: string;
   Nome: string;
