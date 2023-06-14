@@ -2,6 +2,7 @@ import { Capitulo } from "../types/Serie";
 
 export default class Serie {
   Nome: string;
+  SubNome: string;
   Descricao: string;
   Escrito: string;
   Ref: string;
@@ -13,6 +14,7 @@ export default class Serie {
   Tipo: string;
   constructor(
     Nome: string,
+    SubNome: string,
     Descricao: string,
     Escrito: string,
     Ref: string,
@@ -23,6 +25,7 @@ export default class Serie {
     Capitulos: Capitulo[]
   ) {
     this.Nome = Nome;
+    this.SubNome = SubNome;
     this.Descricao = Descricao;
     this.Escrito = Escrito;
     this.Ref = Ref;
