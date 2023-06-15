@@ -1,5 +1,37 @@
 import { Capitulo } from "../types/Serie";
+export class Episodios {
+  Nome: string;
+  Ref: string;
+  Numero: number;
 
+  constructor(nome: string, ref: string, numero: number) {
+    this.Nome = nome;
+    this.Ref = ref;
+    this.Numero = numero;
+  }
+}
+
+export class C_Capitulo {
+  Nome: string;
+  Disponivel: boolean;
+  NumEps: number;
+  DescCap: string;
+  Episodios: Episodios[];
+
+  constructor(
+    nome: string,
+    disponivel: boolean,
+    numEps: number,
+    descCap: string,
+    episodios: Episodios[]
+  ) {
+    this.Nome = nome;
+    this.Disponivel = disponivel;
+    this.NumEps = numEps;
+    this.DescCap = descCap;
+    this.Episodios = episodios;
+  }
+}
 export default class Serie {
   Nome: string;
   SubNome: string;

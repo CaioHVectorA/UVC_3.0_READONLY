@@ -1,5 +1,6 @@
 import { RELACIONADOS } from "../../utilities/consts";
-import Serie from "../Constructors/Serie";
+import Serie, { C_Capitulo, Episodios } from "../Constructors/Serie";
+import { capitulosRRH } from "./Capitulos/Capitulos";
 
 const Series: Serie[] = [
   // RRH / MR1 / GUARD / CONG / MR2?
@@ -13,9 +14,7 @@ const Series: Serie[] = [
     "COMPLETO",
     ["Ação", "Drama", "Gestão", "Sci-Fi"],
     [RELACIONADOS.CONGREGADORES],
-    [
-      //  CAPITULOS RRH AQUI
-    ]
+    capitulosRRH
   ),
   new Serie(
     "Menino Resiliente I",
@@ -51,7 +50,7 @@ const Series: Serie[] = [
     "Ciecon, depois de derrotar Hades, marcha em busca de aliados para conseguir a tão sonhada Justiça Universal",
     "CAIO HENRIQUE",
     "SE_CONG",
-    new Data(),
+    new Date(),
     "COMPLETO",
     ["Sci-Fi", "Ação", "Drama", "Gestão"],
     [RELACIONADOS.PUNHO_MORTAL, RELACIONADOS.CIECON],
