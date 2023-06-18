@@ -1,4 +1,4 @@
-import { RELACIONADOS } from "../../utilities/consts";
+import { IMGS, RELACIONADOS } from "../../utilities/consts";
 import Serie, { C_Capitulo, Episodios } from "../Constructors/Serie";
 import { capitulosRRH } from "./Capitulos/Capitulos";
 
@@ -14,7 +14,8 @@ const Series: Serie[] = [
     "COMPLETO",
     ["Ação", "Drama", "Gestão", "Sci-Fi"],
     [RELACIONADOS.CONGREGADORES],
-    capitulosRRH
+    capitulosRRH,
+    IMGS.RRH
   ),
   new Serie(
     "Menino Resiliente I",
@@ -28,7 +29,8 @@ const Series: Serie[] = [
     [RELACIONADOS.GUARDIOES, RELACIONADOS.MR_2],
     [
       // CAPITULOS MR 1 AQUI
-    ]
+    ],
+    IMGS.MR_1
   ),
   new Serie(
     "Guardiões",
@@ -42,7 +44,8 @@ const Series: Serie[] = [
     [RELACIONADOS.HADES, RELACIONADOS.KERRY],
     [
       // CAPITUOS GUARDIÕES AQUI
-    ]
+    ],
+    IMGS.GUARDIOES
   ),
   new Serie(
     "Congregadores",
@@ -56,7 +59,8 @@ const Series: Serie[] = [
     [RELACIONADOS.PUNHO_MORTAL, RELACIONADOS.CIECON],
     [
       // CAPITULOS CONGREGADORES AQUI
-    ]
+    ],
+    IMGS.CONGREGADORES
   ),
 ];
 

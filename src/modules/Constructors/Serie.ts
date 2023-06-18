@@ -44,6 +44,7 @@ export default class Serie {
   Relacionados: object[];
   Capitulos: Capitulo[];
   Tipo: string;
+  ImgRef: string;
   constructor(
     Nome: string,
     SubNome: string,
@@ -54,7 +55,8 @@ export default class Serie {
     Status: string,
     Categorias: string[],
     Relacionados: object[],
-    Capitulos: Capitulo[]
+    Capitulos: Capitulo[],
+    ImgRef: string
   ) {
     this.Nome = Nome;
     this.SubNome = SubNome;
@@ -67,5 +69,6 @@ export default class Serie {
     this.Relacionados = Relacionados;
     this.Capitulos = Capitulos;
     this.Tipo = "SERIE";
+    this.ImgRef = ImgRef;
   }
 }
