@@ -8,7 +8,7 @@ CharRoutes.get("/", (req, res) => {
 });
 
 CharRoutes.get("/:name", (req, res) => {
-  const charfound = Chars.find((char) => char.Nome === req.params.name);
+  const charfound = Chars.find((char) => char.Nome.toLowerCase() === req.params.name.toLowerCase());
   if (!charfound) {
     res.status(404).json({ message: "Personagem não encontrado!" });
   }
