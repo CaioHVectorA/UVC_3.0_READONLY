@@ -17,6 +17,7 @@ export const HerosLineI: Character[] = [
     "#b140a6",
     true,
     "GUARDIÕES",
-    "TERRA"
+    "TERRA",
+    ["Guardiões", "Guardião", "Telecinese", "Psíquico"]
   ),
 ];

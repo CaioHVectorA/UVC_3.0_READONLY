@@ -13,7 +13,8 @@ const DataSolos: Solo[] = [
     ["Ação", "Universal", "Sci-Fi"],
     [RELACIONADOS.CIECON, RELACIONADOS.GUARDIOES],
     IMGS.HADES,
-    false
+    false,
+    ["Demônio", "Tirano", "Deus", "Mal"]
   ),
   new Solo(
     "Ciecon",
@@ -26,7 +27,8 @@ const DataSolos: Solo[] = [
     ["Sci-Fi", "Universal", "Ação", "Drama"],
     [RELACIONADOS.CONGREGADORES, RELACIONADOS.HADES],
     IMGS.CIECON,
-    false
+    false,
+    ["Congregadores", "Congregador", "Herói", "Justiça", "Justiceiro", "Espaço", "Galáxia"]
   ),
   new Solo(
     "Kerry",
@@ -39,7 +41,8 @@ const DataSolos: Solo[] = [
     ["Drama", "Ação", "Violência"],
     [RELACIONADOS.GUARDIOES],
     IMGS.KERRY,
-    false
+    false,
+    ["Aço", "O homem de aço", "Forte", "de ferro", "Vingança"]
   ),
   new Solo(
     "Punho Mortal",
@@ -52,7 +55,8 @@ const DataSolos: Solo[] = [
     ["Drama", "Ação", "Violência", "Sci-Fi"],
     [RELACIONADOS.CONGREGADORES],
     IMGS.PUNHO_MORTAL,
-    false
+    false,
+    ["Soco", "Murro", "Naok", "Congregadores", "Congregador"]
   ),
   new Solo(
     "O Glacial Fim do Mundo",
@@ -65,7 +69,8 @@ const DataSolos: Solo[] = [
     ["Drama", "Ação", "Sci-Fi"],
     [RELACIONADOS.GUARDIOES],
     IMGS.GLACIAL,
-    true
+    true,
+    ["Desastre", "Catástrofe", "Apocalipse", "Froz", "Reino Froz"]
   ),
 ];
 

@@ -11,6 +11,7 @@ export default class Solo {
   Relacionados: object[];
   isAlternative: boolean;
   Tipo: string;
+  Keywords: string[];
   constructor(
     Nome: string,
     SubNome: string,
@@ -22,7 +23,8 @@ export default class Solo {
     Categorias: string[],
     Relacionados: object[],
     ImgRef: string,
-    isAlternative: boolean
+    isAlternative: boolean,
+    Keywords: string[]
   ) {
     this.Nome = Nome;
     this.SubNome = SubNome;
@@ -36,5 +38,6 @@ export default class Solo {
     this.isAlternative = isAlternative;
     this.ImgRef = ImgRef;
     this.Tipo = "SOLO";
+    this.Keywords = Keywords
   }
 }

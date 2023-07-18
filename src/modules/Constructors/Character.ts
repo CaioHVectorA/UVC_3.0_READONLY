@@ -29,6 +29,7 @@ export default class Character {
   isHero: boolean;
   Equipe: string | undefined;
   Local: string;
+  Keywords: string[];
   constructor(
     Nome: string,
     Apelido: string,
@@ -42,7 +43,8 @@ export default class Character {
     Color: string,
     isHero: boolean,
     Equipe: string,
-    Local: string
+    Local: string,
+    Keywords: string[],
   ) {
     this.Nome = Nome;
     this.Apelido = Apelido;
@@ -57,5 +59,6 @@ export default class Character {
     this.isHero = isHero;
     this.Equipe = Equipe;
     this.Local = Local;
+    this.Keywords = Keywords;
   }
 }

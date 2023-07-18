@@ -15,7 +15,8 @@ const Series: Serie[] = [
     ["Ação", "Drama", "Gestão", "Sci-Fi"],
     [RELACIONADOS.CONGREGADORES],
     capitulosRRH,
-    IMGS.RRH
+    IMGS.RRH,
+    ["Arner", "Guerra", "Masin", "Yaa", "Tsuuya", "RRH", "Delimitador", "Fingers", "Tarlin", "Mão", "Right", "Hand", "Guerras", "Diplomacia", "Primeiros passos", "Severum", "Universal", "Espaço", "Andromeda", "Andrômeda"]
   ),
   new Serie(
     "Menino Resiliente I",
@@ -30,7 +31,8 @@ const Series: Serie[] = [
     [
       // CAPITULOS MR 1 AQUI
     ],
-    IMGS.MR_1
+    IMGS.MR_1,
+    ["Larry", "Beatus", "Guardiões", "Guardioes", "Terra", "Herói", "Susbituto", "Guardião"]
   ),
   new Serie(
     "Guardiões",
@@ -45,7 +47,8 @@ const Series: Serie[] = [
     [
       // CAPITUOS GUARDIÕES AQUI
     ],
-    IMGS.GUARDIOES
+    IMGS.GUARDIOES,
+    ["Beenie", "Kevin", "Telecinese", "Escuridon", "Guardião", "Terra", "Herói", "Heróis"]
   ),
   new Serie(
     "Congregadores",
@@ -60,7 +63,8 @@ const Series: Serie[] = [
     [
       // CAPITULOS CONGREGADORES AQUI
     ],
-    IMGS.CONGREGADORES
+    IMGS.CONGREGADORES,
+    ["Espaço", "Ciecon", "Punho Mortal", "Rex", "Justiça", "Paz", "Liberdade", "Hades"],
   ),
 ];
 
