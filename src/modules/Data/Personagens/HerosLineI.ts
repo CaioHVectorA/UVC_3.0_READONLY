@@ -1,4 +1,4 @@
-import { IMGS, RELACIONADOS } from "../../../utilities/consts";
+import { COLORS, IMGS, RELACIONADOS } from "../../../utilities/consts";
 import Character from "../../Constructors/Character";
 import { BIOGRAFIA } from "./TextosCharacters/Biografias";
 import { PODERES } from "./TextosCharacters/Poderes";
@@ -14,7 +14,7 @@ export const HerosLineI: Character[] = [
     BIOGRAFIA.beenie,
     PODERES.beenie,
     "Beenie foi o primeiro Guardião. Além disso, seu Nome sofreu várias mudanças. Ele já foi Alex, Divocu, e muito mais!",
-    "#b140a6",
+    COLORS.PINK,
     true,
     "GUARDIÕES",
     "TERRA",
