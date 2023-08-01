@@ -60,3 +60,13 @@ export const RELACIONADOS = {
     Img: IMGS.GUARDIOES,
   },
 };
+
+export const COLORS = {
+  LIGHT_RED: "#e33b29",
+  STRONG_RED: "#710202",
+  PINK: "#b140a6",
+  NOCOLOR: "#080808",
+  LIGHTER_BLUE: "#4c99e6",
+  LIGHT_BLUE: "#237c99",
+  STRONG_BLUE: "#2c1bc2",
+};
