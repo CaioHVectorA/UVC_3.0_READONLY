@@ -69,4 +69,5 @@ export const COLORS = {
   LIGHTER_BLUE: "#4c99e6",
   LIGHT_BLUE: "#237c99",
   STRONG_BLUE: "#2c1bc2",
+  BROWN: "#78461a",
 };

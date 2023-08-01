@@ -18,4 +18,6 @@ export const BIOGRAFIA = {
   hades:
     "Temido em todos os cantos, o carrasco do universo expande sua monstruosidade e tenta dominar tudo ao seu redor. Mas isso não é à toa. Claro que o Demônio não está livre do sadismo e da beligerância, mas a principal causa é a sedenta vingança pelo seu maior inimigo, Ormuz. Tão sedenta e voraz que, usualmente, toma conta da sua cabeça. Entretanto, ele não pretende desistir tão cedo.",
   firn: "Tão discreto quanto o chefe, Firn Gandal é o principal assistente da Red Right Hand e um dos maiores agentes da corporação. Além disso, é o homem mais próximo de Arner, o que não é à toa; Seu interesse, inteligência, esforço e pouca idade convenceram Arner de o recrutar.",
+  larry:
+    "Larry nasceu em Glen, e teve sua breve pela cidade com um padrão de vida comum. Porém, sua vida virou se cabeça para baixo quando repentinamente ele e seus pais se envolveram num acidente trágico, do qual eles não conseguiram sobreviver. A única coisa que fez com que o garoto sobrevivesse foi uma cirurgia incerta, da qual mudava a forma que seus ossos e articulações funcionam, e então ele resistiu. No entanto, ele desenvolveu uma anomalia única e muito especial. E ele cresceu com esta anomalia, posteriormente acarretando em eventos que o tornaram um herói renomado.",
 };
