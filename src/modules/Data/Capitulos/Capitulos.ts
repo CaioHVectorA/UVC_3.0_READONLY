@@ -10,14 +10,14 @@ export const capitulosRRH: Capitulo[] = [
     Episodios: [
       new Episodios("A reunião", "01", 1),
       new Episodios("Reconhecimento", "02", 2),
-      new Episodios("Invasões", "03", 3),
-      new Episodios("Brechas do passado", "04", 4),
-      new Episodios("Veredicto", "05", 5),
+      // new Episodios("Invasões", "03", 3),
+      // new Episodios("Brechas do passado", "04", 4),
+      // new Episodios("Veredicto", "05", 5),
     ],
   },
   {
     Nome: "Diplomacia Falsa",
-    Disponivel: true,
+    Disponivel: false,
     NumEps: 4,
     DescCap: "Descricao de capítulo aqui",
     Episodios: [
@@ -29,7 +29,7 @@ export const capitulosRRH: Capitulo[] = [
   },
   {
     Nome: "Mudanças drásticas",
-    Disponivel: true,
+    Disponivel: false,
     NumEps: 4,
     DescCap: "Descricao de capítulo aqui",
     Episodios: [
@@ -41,7 +41,7 @@ export const capitulosRRH: Capitulo[] = [
   },
   {
     Nome: "Ressurreição",
-    Disponivel: true,
+    Disponivel: false,
     NumEps: 5,
     DescCap: "Descricao de capítulo aqui",
     Episodios: [
@@ -54,7 +54,7 @@ export const capitulosRRH: Capitulo[] = [
   },
   {
     Nome: "Expansão",
-    Disponivel: true,
+    Disponivel: false,
     NumEps: 4,
     DescCap: "Descricao de capítulo aqui",
     Episodios: [
@@ -66,7 +66,7 @@ export const capitulosRRH: Capitulo[] = [
   },
   {
     Nome: "A Guerra",
-    Disponivel: true,
+    Disponivel: false,
     NumEps: 4,
     DescCap: "Descricao de capítulo aqui",
     Episodios: [
